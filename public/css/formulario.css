@@ -1,0 +1,238 @@
+/*Bimmers*/
+
+/* Bootstrap Styles */
+
+.form-control {
+    background-color: rgba(0,0,0,0.9) !important;
+    color: #fff;
+    border: 2px solid var(--bg-second-color);
+    height: 56px;
+    padding-top: 0.5rem !important;
+}
+
+.form-control:focus {
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+}
+
+.form-select {
+    background-color: rgba(0,0,0,0.9);
+    color: #fff;
+    border: 2px solid var(--bg-second-color);
+    height: 56px;
+    appearance: none;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border: 2px solid var(--bg-second-color);
+}
+
+.bi-chevron-up {
+    height: 16px;
+}
+
+/*My Styles*/
+.dropdown-toggle--edit {
+    background-color: var(--bg-second-color) !important;
+    border-color: var(--bg-second-color) !important;
+    border-radius: 20px !important;
+    border: none !important;
+    color: var(--bg-select-color) !important;
+    width: 425px !important;
+    z-index: 1;
+}
+
+.dropdown-toggle--edit:focus {
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.9) !important;
+}
+
+.dropdown-toggle--edit:hover {
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.9) !important;
+    border-radius: 20px !important;
+    color: var(--bg-second-color) !important;
+}
+
+.dropdown-toggle--edit::after {
+    font-size: 35px !important;
+}
+
+.dropdown-menu--edit {
+    background: rgba(0,0,0,0.9);
+}
+
+.dropdown-menu--edit,
+.dropdown-toggle--edit:active {
+    border: 0;
+    inset: auto !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    width: 425px !important;
+}
+
+.dropdown-menu--edit.show {
+    display: flex !important;
+    transform: translate(0px, -6px) !important;
+    z-index: 0;
+}
+
+.custom-file label,
+.custom-file label:hover {
+    padding: 6px 20px !important;
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+.form-floating>.form-control:focus~label {
+    color: #fff;
+    bottom: 15px;
+    opacity: 1;
+    top: auto;
+    width: fit-content !important;
+}
+
+.form-floating>label {
+    color: #fff;
+}
+
+.container-phone>.form-control::placeholder {
+    color: #fff;
+}
+
+
+.form-floating>.form-control:focus~label::after {
+    position: absolute;
+    inset: 1rem 0.375rem;
+    z-index: -1;
+    height: 1.5em;
+    content: "";
+    background-color: rgba(0,0,0);
+    border-radius: var(--bs-border-radius);
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label {
+    position: absolute;
+    padding: 0 4px;
+    bottom: 35px;
+    left: 7px;
+    color: #fff;
+    height: fit-content;
+    top: auto;
+    background-color: #000;
+    opacity: 1;
+    width: fit-content !important;
+}
+
+
+
+.container-area {
+    width: 113px;
+}
+
+.input-area {
+    font-size: 12px;
+    padding: 0 4px;
+    top: 10px;
+    left: 8px;
+}
+
+select+i.bi {
+    margin-top: -39px;
+    margin-right: 9px;
+    padding-right: 5px;
+    font-size: 1rem;
+}
+
+.container-phone {
+    width: 215px;
+}
+
+.form-control::placeholder {
+    color: #000;
+}
+
+.input-phone {
+    font-size: 12px;
+    left: 8px;
+    padding: 0 4px;
+    top: 10px;
+}
+
+.btn-save {
+    background-color: var(--bg-second-color) !important;
+    border-color: var(--bg-second-color) !important;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: var(--bg-select-color);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.btn-save:hover,
+.btn-save:active {
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: var(--bg-second-color) !important;
+}
+
+.container-card {
+    padding-left: 5rem !important;
+}
+
+.container-photos button {
+    width: 112px;
+}
+
+.container-photo {
+    width: 122px;
+}
+
+.btns-carrusel {
+    background-color: #f0f0f0 !important;
+    cursor: pointer;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.container-btns__network:active,
+.container-btns__network a:active,
+.container-btns__network:focus-visible {
+    border-color: transparent !important;
+    outline: none !important;
+}
+
+.container-btns__network p {
+    font-size: 12px;
+}
+
+.dropdown-links {
+    bottom: 8%;
+}
+
+.dropdown-links button:active,
+.btn.show {
+    border-color: transparent !important;
+    outline: none !important;
+}
+
+@media (max-width: 520px) {
+    .container-card {
+        padding: 0 !important;
+        width: 97%;
+    }
+
+    .container-card>div, .dropdown-toggle--edit, .dropdown-menu--edit {
+        width: 100% !important;
+    }
+
+    .dropdown-menu--edit, .dropdown-toggle--edit:active, .v-card {
+        width: 100% !important;
+
+    }
+
+}

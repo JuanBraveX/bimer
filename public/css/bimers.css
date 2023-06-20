@@ -1,0 +1,240 @@
+.jumbotron {
+    background: black;
+    padding: 90px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/*
+.dropdown-networks {
+    top: 33rem;
+}
+
+.container-qr,
+.dropdown-networks--one {
+    top: 49rem;
+}
+
+.container-r,
+.dropdown-networks--one {
+    top: 49rem;
+}
+*/
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: regular;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+}
+
+#btn_qr {
+    z-index: 9999;
+    border-radius: 50%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#btn_r {
+    border-radius: 50%;
+    padding: 0.7rem;
+    font-size: 0.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.elemento {
+    width: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .elemento {
+      
+      width: 100% !important;
+    }
+  }
+  
+/*
+@media (min-height: 600px) {
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 30rem !important;
+    }
+
+    .dropdown-networks--ideal {
+        top: 28.5rem !important;
+    }
+}
+
+@media (min-height: 650px) {
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 34.5rem !important;
+        margin-right: 0.5rem;
+    }
+
+    .dropdown-networks--ideal {
+        top: 33.5rem !important;
+    }
+}
+
+@media (min-height: 720px) {
+
+    .dropdown-networks,
+    .dropdown-networks--ideal {
+        top: 36.3rem !important;
+    }
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 38rem !important;
+    }
+}
+
+@media (min-height: 740px) {
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 39.7rem !important;
+    }
+
+    .dropdown-networks--ideal,
+    .dropdown-networks {
+        top: 38rem !important;
+    }
+}
+
+@media (min-height: 775px) {
+    .dropdown-networks {
+        top: 38rem !important;
+    }
+}
+
+
+@media (min-height: 800px) {
+    .dropdown-networks {
+        top: 39rem !important;
+    }
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 42rem !important;
+    }
+
+    .dropdown-networks--ideal {
+        top: 40.6rem !important;
+    }
+}
+
+@media (min-height: 840px) {
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 46rem !important;
+    }
+
+    .dropdown-networks--ideal {
+        top: 44.5rem !important;
+    }
+}
+
+@media (min-height: 890px) {
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 49rem !important;
+    }
+
+    .dropdown-networks--ideal {
+        top: 47.6rem !important;
+    }
+}
+
+@media (min-height: 910px) {
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 50rem !important;
+    }
+
+    .dropdown-networks--ideal {
+        top: 49rem !important;
+    }
+}
+
+@media (min-height: 930px) {
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 48.8rem !important;
+    }
+}
+
+@media (min-height: 1024px) {
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 56.5rem !important;
+    }
+
+    .dropdown-networks--ideal {
+        top: 54rem !important;
+    }
+}
+
+@media (min-height: 1180px) {
+
+    .container-qr,
+    .dropdown-networks--one {
+        top: 65.5rem !important;
+    }
+
+    .dropdown-networks--ideal {
+        top: 54rem !important;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .dropdown-networks {
+        position: absolute !important;
+        top: 40.7rem !important;
+    }
+}
+*/
+/* Estilos para el modo oscuro */
